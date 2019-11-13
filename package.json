@@ -13,7 +13,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
+    "src/**/*.{js,ts,tsx}": [
       "eslint . --fix",
       "git add"
     ]
@@ -25,7 +25,7 @@
     "prettier:base": "prettier --parser typescript --single-quote",
     "prettier:check": "npm run prettier:base -- --list-different \"src/**/*.{ts,tsx}\"",
     "prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\"",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "lint": "tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
