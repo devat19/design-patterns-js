@@ -1,13 +1,12 @@
 # Minimal Typescript Boilerplate
 
-<img align="center" src="_/ts.png" alt="ts-logo">
+<div style="text-align:center"><img src="_/ts.png" /></div>
 
 ## Details
 
 - Uses ESLint with TS rules
 - Uses Prettier for code formatting
 - Uses Concurrently for compilling and running in single go during development
-
 
 ### Setup
 
