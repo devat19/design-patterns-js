@@ -1,8 +1,6 @@
 # Minimal Typescript Boilerplate
 
-<center>
-![TS Logo](_/ts.png)
-</center>
+<img align="center" src="_/ts.png" alt="ts-logo">
 
 ## Details
 
