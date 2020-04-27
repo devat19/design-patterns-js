@@ -17,7 +17,9 @@ When designing a system few components needs to have only one sharable instance 
 - When you need cross class communication
 - When you want to represent unique items
 
-## Warning
+## Notes
 
 - Directly depending on a Singleton is a bad idea.
 - We can overcome the above fact by introducing a dependency instead.
+
+
